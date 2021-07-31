@@ -22,7 +22,7 @@ function organiseFn(src){
         let ifExist = fs.existsSync(src);
         if(ifExist){
          // directory creation will be done. 
-         finalPath =   path.join(src,"organised_files");
+         finalPath = path.join(src,"organised_files");
         //later on check lga skte hai ki ye folder already exist krta hai ki nhi
          fs.mkdirSync(finalPath);
         }else{
@@ -89,5 +89,5 @@ function getType(filename){
 }
 
 module.exports ={
-    organisekey:organiseFn,
+    organisekey:organiseFn
 }
