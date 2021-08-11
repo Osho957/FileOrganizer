@@ -10,7 +10,7 @@ let path = input[1];
 // console.log(input);
 switch(command){
     case "tree":
-        treeObj.treekey(path); 
+        treeObj.treeKey(path); 
         break;
     case "organise":
         organiseObj.organisekey(path);
